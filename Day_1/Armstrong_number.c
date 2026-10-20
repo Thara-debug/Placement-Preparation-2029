@@ -45,3 +45,37 @@ int main()
 
     return 0;
 }
+
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    int r;
+    printf("Enter a number:\n");
+    scanf("%d",&n);
+
+    int count=0;
+    while(n>0){
+        r=n%10;
+        count++;
+        n=n/10;
+    }
+
+    int sum=0;
+    
+    while(n>0){
+        int fact=1;
+        r=n%10;
+        for(int i=0;i<count;i++){
+            fact=fact*r;
+        }
+        for(int i=0;i<1;i++){
+            sum=sum+fact;
+        }
+        n=n/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+*/
